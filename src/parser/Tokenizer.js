@@ -119,7 +119,7 @@ export class Tokenizer {
    * @param {Array} tokens
    * @returns {boolean}
    */
-  isUnaryMinus(tokens) {
+  checkIsUnary(tokens) {
     if (tokens.length === 0) return true;
 
     const lastToken = tokens[tokens.length - 1];
